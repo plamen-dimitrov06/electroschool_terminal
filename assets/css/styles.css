@@ -31,21 +31,44 @@ a {
     justify-content: center;
 }
 
-.container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    margin: 0 auto;
-    padding: 0 10%;
+#image-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 80%;
+    max-width: 500px;
+    min-height: 90%;
+    max-height: 300px;
 }
 
-.container>div {
+.grid {
+    display: grid;
+    width: 80%;
+    grid-template-columns: repeat(auto-fit, 200px);
+    gap: 1rem;
+    justify-content: center;
+}
+
+.grid>.button {
     text-align: center;
     background-color: #4682B4;
     border-radius: 25px;
-    margin: 5% auto;
-    /* this padding makes the button harder to engage */
-    padding: 0 2%;
+    margin: 2.5% auto;
     width: 200px;
     height: 150px;
-    float: left;
+}
+
+table {
+    width: 100%;
+    margin: 2% auto;
+    background-color: #4682B4;
+}
+
+td, th {
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #FFF;
 }
