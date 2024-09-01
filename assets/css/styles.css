@@ -3,12 +3,27 @@ html {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 1rem;
 }
 
 h1,h2,h3,h4,h5,h6 {
     color: #7A7A7A;
     padding: 10px 0;
 }
+
+table {
+    width: 100%;
+    margin: 2% auto;
+    background-color: #4682B4;
+    font-size: 1.2rem;
+}
+
+td, th {
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #FFF;
+}
+
 body {
     background: url('../logo.png') no-repeat center center fixed;
     background-size: contain;
@@ -17,7 +32,7 @@ body {
 }
 
 body > div {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -27,11 +42,22 @@ a {
     font-style: normal;
     color: #FFF;
     text-decoration: none;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#home img {
+    position: fixed;
+    margin: 5px;
+    width: 100%;
+    height: 100%;
+    max-width: 115px;
+    max-height: 105px;
+    top: 0;
+    left: 0;
 }
 
 #image-container img {
@@ -60,18 +86,8 @@ a {
     background-color: #4682B4;
     border-radius: 25px;
     margin: 2.5% auto;
-    width: 200px;
-    height: 150px;
-}
-
-table {
     width: 100%;
-    margin: 2% auto;
-    background-color: #4682B4;
-}
-
-td, th {
-    padding: 5px;
-    text-align: center;
-    border: 1px solid #FFF;
+    height: 100%;
+    min-width: 200px;
+    min-height: 150px;
 }
