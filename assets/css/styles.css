@@ -11,6 +11,11 @@ h1,h2,h3,h4,h5,h6 {
     padding: 10px 0;
 }
 
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
 table {
     width: 100%;
     margin: 2% auto;
@@ -36,7 +41,7 @@ body > div {
     margin: 0 auto;
 }
 
-a {
+.button a {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
