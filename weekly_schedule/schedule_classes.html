@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../assets/css/styles.css">
     <meta charset="UTF-8">
     <title>ПГЕЕ Терминал - Седмично разписание</title>
+    <script src="../assets/js/imageViewer.js"></script>
 </head>
 <body>
     <a id="home" href="../index.html"><img src="../assets/logo.png"></a>
@@ -27,6 +28,12 @@
         </div>
         <div class="button">
             <a href="schedule_twelveth_grade.html">12 Клас</a>
+        </div>
+        <div class="button">
+            <a href="#" onclick="showImage('dd')">ДД</a>
+        </div>
+        <div id="image-container" style="display: none;">
+            <img id="image-element" onclick="document.getElementById('image-container').style.display = 'none';">
         </div>
     </div>
 </body>
