@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <meta charset="UTF-8">
+    <script src="./assets/js/imageViewer.js"></script>
+    <title>ПГЕЕ Терминал - Схема на училището.</title>
+</head>
+<body>
+    <a id="home" href="index.html"><img src="./assets/logo.png"></a>
+    <div>
+        <h1>Схема на училището.</h1>
+        <div class="grid">
+            <div class="button">
+                <a href="#" onclick="showFloor('first')">1ви етаж</a>
+            </div>
+            <div class="button">
+                <a href="#" onclick="showFloor('second')">2ри етаж</a>
+            </div>
+            <div class="button">
+                <a href="#" onclick="showFloor('third')">3ти етаж</a>
+            </div>
+            <div class="button">
+                <a href="#" onclick="showFloor('fourth')">4ти етаж</a>
+            </div>
+        </div>
+    </div>
+    <div id="image-container" style="display: none;">
+        <img id="image-element" onclick="document.getElementById('image-container').style.display = 'none';">
+    </div>
+</body>
+</html>
