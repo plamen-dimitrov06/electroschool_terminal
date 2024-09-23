@@ -34,6 +34,7 @@ body {
     background-size: contain;
     background-color: rgba(245, 245, 245, 0.835);
     background-blend-mode: overlay;
+    padding-bottom: 10px;
 }
 
 body > div {
