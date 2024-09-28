@@ -131,3 +131,15 @@ body > div {
         font-size: 3rem;
     }
 }
+/* phones */
+@media only screen and (max-width: 767px) {
+    .grid {
+        width: 100%;
+        grid-template-columns: repeat(auto-fit, 200px);
+        gap: 1rem;
+    }
+    body > div {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
