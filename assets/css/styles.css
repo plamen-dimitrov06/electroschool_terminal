@@ -131,3 +131,11 @@ body > div {
         font-size: 3rem;
     }
 }
+
+/* SMARTPHONES PORTRAIT */
+@media screen and (max-width: 600px) {
+    #home img {
+        max-width: 95px;
+        max-height: 85px;
+    }
+}
