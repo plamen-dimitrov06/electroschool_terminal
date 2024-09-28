@@ -19,7 +19,8 @@
     "display":"standalone",
     "dir":"auto",
     "lang":"en-US",
-    "name":"ElectroTerminal",
-    "short_name":"PGEE Terminal",
+    "name":"ПГЕЕ Апостол Арнаудов Русе Терминал",
+    "short_name":"ПГЕЕ Терминал",
+    "description":"Информационна система за учебната програма, разписание на часовете и документи свързани с дейността на гимназията.",
     "start_url":"https://plamen-dimitrov06.github.io/electroschool_terminal/index.html"
 }
