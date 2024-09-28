@@ -150,4 +150,7 @@ body > div {
     .button a {
         font-size: 1rem;
     }
+    table {
+        font-size: 1rem;
+    }
 }
