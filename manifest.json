@@ -20,5 +20,6 @@
     "dir":"auto",
     "lang":"en-US",
     "name":"ElectroTerminal",
-    "short_name":"PGEE Terminal"
+    "short_name":"PGEE Terminal",
+    "start_url":"https://plamen-dimitrov06.github.io/electroschool_terminal/index.html"
 }
