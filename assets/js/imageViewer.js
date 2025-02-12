@@ -2,7 +2,7 @@ let showImage = function(grade) {
     image = document.getElementById('image-element');
     image.src = '../assets/timetables/timetable-' + grade + '.png';
     document.getElementById('image-container').style.display = 'block';
-    gtag('event', 'timetable_modal');
+    gtag('event', 'timetable_modal', {'grade' : grade});
 }
 let showFloor = function(floor) {
     image = document.getElementById('image-element');
