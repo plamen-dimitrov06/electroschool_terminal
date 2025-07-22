@@ -42,16 +42,6 @@ export function initImagePdfViewer(config) {
         }
     }
 
-    // Check if image exists
-    function imageExists(src) {
-        return new Promise((resolve) => {
-            const img = new Image();
-            img.onload = () => resolve(true);
-            img.onerror = () => resolve(false);
-            img.src = src;
-        });
-    }
-
     // Event listeners
     prevBtn.addEventListener("click", prevPage);
     nextBtn.addEventListener("click", nextPage);
