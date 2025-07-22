@@ -23,6 +23,7 @@ export function initImagePdfViewer(config) {
 
     // Public navigation functions
     function updatePage() {
+        viewer.src = "";
         viewer.src = pathTemplate(documentId, currentPage);
         prevBtn.disabled = currentPage === 1;
         nextBtn.disabled = currentPage === totalPages;
