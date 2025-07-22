@@ -34,11 +34,11 @@
 
         initImagePdfViewer({
             documentId: "ethical_codex",
-            pathTemplate: (docId, pageNumber) => `./assets/pdfs/${docId}/page-${String(pageNumber).padStart(3, '0')}.png`,
+            totalPages: 9,
+            pathTemplate: (docId, pageNumber) => `./assets/pdfs/${docId}/page-${String(pageNumber).padStart(3, '0')}-fs8.png`,
             containerId: "viewer",
             prevBtnId: "prevBtn",
-            nextBtnId: "nextBtn",
-            onReady: (total) => console.log(`Loaded with ${total} pages.`)
+            nextBtnId: "nextBtn"
         });
     </script>
 </body>
